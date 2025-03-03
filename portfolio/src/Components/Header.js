@@ -4,14 +4,14 @@ import { Bars3Icon } from "@heroicons/react/24/solid";
 export default function Header() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <header className="flex justify-between sticky-top px-5 py-2 bg-secondary">
+    <header className="flex justify-between sticky-top px-5 py-2 bg-secondary color1">
       <a href="#hero">
-        <p className="font-bold text-white" >
+        <p className="font-bold color-1" >
           Joel Murphy
         </p>
       </a>
       <nav className="hidden md:block">
-        <ul className="flex text-white">
+        <ul className="flex color-1">
           <li className="hover"><a href="/">Home</a></li>
           <li className="hover"><a href="#about">About</a></li>
           <li className="hover"><a href="#project">Projects</a></li>
@@ -21,7 +21,7 @@ export default function Header() {
       </nav>
       {toggleMenu && (
         <nav className="block md:hidden ">
-          <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col text-white mobile-nav ">
+          <ul onClick={() => setToggleMenu(!toggleMenu)} className="flex flex-col color-1 mobile-nav ">
            <li><a href="/">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#project">Projects</a></li>

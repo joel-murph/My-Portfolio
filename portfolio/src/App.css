@@ -10,10 +10,25 @@ header {
 }
 
 .bg-primary {
-  background: #c32146;
+  background: #fcdfc5;
 }
 .bg-secondary {
-  background: #9b0d1c;
+  background: #e84f5e;
+}
+.color {
+  color: #e84f5e;
+}
+.color-1 {
+  color: #fcdfc5;
+}
+.icon:hover {
+  color: #e84f5e;
+}
+.border-color {
+  border-color: #e84f5e;
+}
+.border-color-1 {
+  border-color: #fcdfc5;
 }
 
 .mobile-nav {
@@ -29,7 +44,9 @@ header {
 }
 
 .btn {
-  @apply bg-blue-500 px-2 py-2 font-bold hover:border-2 border-white rounded-xl;
+  background-color: #fcdfc5;
+  color: #e84f5e;
+  @apply px-2 py-2 font-bold hover:border-2 border-white rounded-xl;
 }
 
 html {

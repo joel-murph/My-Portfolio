@@ -31,10 +31,10 @@ export default function Projects() {
     >
       <div className="w-full">
         <div className="flex flex-col px-10 py-5">
-          <h1 className="text-4xl text-white border-b-4 mb-5 font-bold border-primary w-[140px]">
+          <h1 className="text-4xl color border-b-4 mb-5 font-bold border-color w-[140px]">
             Projects
           </h1>
-          <p className="text-white">
+          <p className="color">
             These are some of my Projects. They are built using Front-End Technologies. Check them out.
           </p>
         </div>
@@ -50,13 +50,13 @@ export default function Projects() {
                   alt={project.description}
                 />
                 <div className="project-description">
-                  <p className="text-center px-5 py-5 text-white">
+                  <p className="text-center px-5 py-5 color-1">
                     {project.description}
                   </p>
                   <div className="flex justify-center">
                     <a
                       rel="noreferrer"
-                      className="btn-1 text-white"
+                      className="btn-1 color"
                       target="_blank"
                       href={project.link}
                     >

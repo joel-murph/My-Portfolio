@@ -10,8 +10,8 @@ export default function Resume() {
       </div>
       <div className="md:w-1/2 flex justify-center">
         <div className="flex flex-col justify-center">
-          <h1 className="text-4xl text-white border-b-4 mb-5 font-bold border-primary w-[130px]">Resume</h1>
-          <p className="text-white pb-5">You can View my Resume <a className="btn" href={resume} download="Resume.pdf">Download</a></p>
+          <h1 className="text-4xl color-1 border-b-4 mb-5 font-bold border-color-1 w-[130px]">Resume</h1>
+          <p className="color-1 pb-5">You can View my Resume <a className="btn" href={resume} download="Resume.pdf">Download</a></p>
         </div>
       </div>
     </section>
